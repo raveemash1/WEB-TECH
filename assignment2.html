@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Information Form</title>
+  </head>
+  <body>
+    <h1>Student Information Form</h1>
+
+    <form>
+      <label for="fullname">Full Name:</label><br>
+      <input type="text" id="fullname" name="fullname"><br><br>
+
+      <label for="roll">Roll Number:</label><br>
+      <input type="text" id="roll" name="roll"><br><br>
+
+      <label for="contact">Contact Number:</label><br>
+      <input type="tel" id="contact" name="contact"><br><br>
+
+      <p>Subjects (select one or more):</p>
+      <input type="checkbox" id="sub-html" name="subjects" value="HTML">
+      <label for="sub-html">HTML</label><br>
+
+      <input type="checkbox" id="sub-css" name="subjects" value="CSS">
+      <label for="sub-css">CSS</label><br>
+
+      <input type="checkbox" id="sub-js" name="subjects" value="JavaScript">
+      <label for="sub-js">JavaScript</label><br>
+
+      <input type="checkbox" id="sub-web" name="subjects" value="Web Development">
+      <label for="sub-web">Web Development</label><br><br>
+
+      <label for="semester">Semester:</label><br>
+      <select id="semester" name="semester">
+        <option value="1">Semester 1</option>
+        <option value="2">Semester 2</option>
+        <option value="3">Semester 3</option>
+        <option value="4">Semester 4</option>
+        <option value="5">Semester 5</option>
+        <option value="6">Semester 6</option>
+      </select><br><br>
+
+      <label for="discipline">Discipline:</label><br>
+      <select id="discipline" name="discipline">
+        <option value="BSCS">BSCS</option>
+        <option value="BSIT">BSIT</option>
+        <option value="BSE">BSE</option>
+        <option value="BSEE">BSEE</option>
+      </select><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
